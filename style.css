@@ -7,6 +7,10 @@
     line-height: 1.4em;
 }
 
+body {
+     background-color: grey;
+}
+
 h1 {
     font: 800 38px 'Montserrat', sans-serif;
     text-transform: uppercase;
@@ -34,10 +38,12 @@ h2 {
 .position {
     font: 600 13px 'Montserrat', sans-serif;
     text-transform: uppercase;
+    margin:0px;
 }
 
 .company, .specialization {
     font-weight: 600;
+    width: ;
 }
 
 .period {
@@ -57,21 +63,31 @@ p {
     width: 50%;
 }
 
-.left, .photo  {
+.left, .photo, .left-section   {
     width: 300px;
+}
+
+.photo {
+    margin-bottom: -5px;
 }
 
 .left {
     background-color: #0032C6;
     color: #EDF3FF;
-    padding: 1px 10px 16px;
+    padding: 1px 16px 110px;
+}
+
+.left-section {
+    margin: 0px 0px 0px auto;
 }
 
 
 .right {
-    width: 500px;
+    width: 550px;
     background-color: white;
     color:#0032C6;
+    margin: 0px auto 0px 0px;
+    padding: 0px 20px;
 }
 
 .a-white {
@@ -84,4 +100,42 @@ p {
 
 .list {
     margin-left: 16px;
+}
+
+.job {
+    width: 120px;
+}
+
+.obligations, .specialization, .uni {
+    width: 350px;
+    margin-top: 0px;
+}
+
+.work {
+    margin-bottom: 16px;
+}
+
+.header, .footer {
+    height: 70px;
+    width: auto ;
+    background-color: #494949;
+}
+
+.header {
+    margin: 0px;
+    color: white;
+    font: 600 14px 'Montserrat', sans-serif;
+    padding: 25px 50px;
+}
+
+.footer {
+    margin: 10px 0px 0px 0px;
+
+}
+
+.github {
+    height: 60px;
+    width: auto;
+    padding: 10px 70px;
+    margin-top: -10px;
 }
