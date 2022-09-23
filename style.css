@@ -1,0 +1,150 @@
+* {
+    font: 400 12px 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    line-height: 1.4em;
+}
+
+body {
+     background-color: grey;
+}
+
+h1 {
+    font: 800 38px 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    margin: 16px 0px;
+}
+
+.new-position {
+    font: 18px 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    margin: 10px 0px;
+}
+
+.line {
+    background-color: #0032C6;
+    width: 320px;
+    height: 4px;
+    margin: 20px 0px;
+}
+
+h2 {
+    font: 800 18px 'Montserrat', sans-serif;
+    margin: 16px 0px;
+}
+
+.position {
+    font: 600 13px 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    margin:0px;
+}
+
+.company, .specialization {
+    font-weight: 600;
+}
+
+.period {
+    font-style: italic;
+}
+
+p {
+    margin: 10px 0px;
+}
+
+.main, .work, .footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section {
+    width: 50%;
+}
+
+.left, .photo, .left-section   {
+    width: 300px;
+}
+
+.photo {
+    margin-bottom: -5px;
+}
+
+.left {
+    background-color: #0032C6;
+    color: #EDF3FF;
+    padding: 1px 16px 110px;
+}
+
+.left-section {
+    margin: 0px 0px 0px auto;
+}
+
+
+.right {
+    width: 550px;
+    background-color: white;
+    color:#0032C6;
+    margin: 0px auto 0px 0px;
+    padding: 0px 20px;
+}
+
+.a-white {
+    color: #EDF3FF;
+}
+
+.a-blue {
+    color: #0032C6;
+}
+
+.list {
+    margin-left: 16px;
+}
+
+.job {
+    width: 120px;
+}
+
+.obligations, .specialization, .uni {
+    width: 350px;
+    margin-top: 0px;
+}
+
+.work {
+    margin-bottom: 16px;
+}
+
+.header, .footer {
+    height: 70px;
+    width: auto ;
+    background-color: #494949;
+}
+
+.header {
+    margin: 0px;
+    color: white;
+    font: 600 14px 'Montserrat', sans-serif;
+    padding: 25px 50px;
+}
+
+.footer {
+    margin: 0px 0px 0px 0px;
+    padding: 16px 0px 0px 0px;
+}
+
+.github-img, .rss-img {
+    height: 40px;
+    width: auto;
+    /* padding-top: 10px; */
+}
+
+.year {
+    font: 600 50px 'Montserrat', sans-serif;
+    color: #111111;
+    line-height: 0.8;
+}
+
+.github, .year, .rss  {
+    margin: 0px 0px 0px 325px;
+    padding: 0px 0px 0px 0px;
+}
